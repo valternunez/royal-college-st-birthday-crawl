@@ -2,7 +2,7 @@
 
 A one-page site for Valter's birthday pub crawl in Camden, Saturday 24 October 2026: the route, a street map, snack prices, notes and a downloadable PDF guide.
 
-Live at: https://valternunez.github.io/royal-college-st-birthday-crawl/ *(update if the username differs)*
+Live at: https://valternunez.github.io/royal-college-st-birthday-crawl/
 
 ## Files
 
