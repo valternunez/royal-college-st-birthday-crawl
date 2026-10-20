@@ -1,0 +1,312 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>The Royal College St. Crawl</title>
+<meta name="description" content="Valter's birthday pub crawl. Saturday 24 October, from 5pm, four pubs around Royal College Street, Camden.">
+<meta name="theme-color" content="#e3e7e1">
+<meta property="og:title" content="The Royal College St. Crawl">
+<meta property="og:description" content="Valter's birthday. Sat 24 Oct, 5pm. Four pubs, one night.">
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+<link rel="apple-touch-icon" href="assets/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gloock&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&family=Courier+Prime:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+
+<header class="hero" id="top">
+  <div class="hero-top mono">
+    <span>No. 01 &mdash; NW1</span>
+    <span>Sat 24 Oct 2026</span>
+  </div>
+
+  <div class="hero-main">
+  <div class="hero-copy">
+  <p class="kicker"><em>Four pubs, one night.</em></p>
+  <h1 class="title" aria-label="The Royal College Street Crawl">
+    <span class="w"><span>The</span></span>
+    <span class="w"><span>Royal</span></span>
+    <span class="w"><span>College&nbsp;St.</span></span>
+    <span class="w red"><span>Crawl</span></span>
+  </h1>
+  </div>
+
+  <div class="hero-side">
+  <svg class="stamp" viewBox="0 0 200 200" aria-hidden="true">
+    <defs><path id="circ" d="M100,100 m-78,0 a78,78 0 1,1 156,0 a78,78 0 1,1 -156,0"/></defs>
+    <circle cx="100" cy="100" r="96" fill="none" stroke="currentColor" stroke-width="2"/>
+    <circle cx="100" cy="100" r="60" fill="none" stroke="currentColor" stroke-width="1"/>
+    <g class="stamp-ring">
+      <!-- textLength = the circle's circumference (2 x pi x 78), so the ring closes without overlapping -->
+      <text><textPath href="#circ" startOffset="0" textLength="490" lengthAdjust="spacing">HAPPY BIRTHDAY &#183; FOUR PUBS &#183; ONE NIGHT &#183;</textPath></text>
+    </g>
+    <text x="100" y="110" text-anchor="middle" class="stamp-big">4</text>
+    <text x="100" y="131" text-anchor="middle" class="stamp-small">PUBS</text>
+  </svg>
+
+  <div class="ticket" data-reveal>
+    <div class="ticket-row">
+      <div><span class="label">Meet</span><strong>5pm</strong></div>
+      <div><span class="label">At</span><strong>Constitution</strong></div>
+      <div><span class="label">Ends</span><strong>1am</strong></div>
+    </div>
+    <div class="ticket-status" id="status" aria-live="polite">
+      <span class="label" id="status-label">Doors open in</span>
+      <span class="status-main" id="status-main">&nbsp;</span>
+      <span class="status-sub" id="status-sub"></span>
+    </div>
+    <div class="ticket-actions">
+      <a class="btn" href="#route">See the route</a>
+      <button class="btn ghost" id="cal" type="button">Add to calendar</button>
+      <a class="btn ghost" href="valters-pub-crawl.pdf" download>Download PDF</a>
+    </div>
+  </div>
+
+  </div>
+  </div>
+</header>
+
+<main>
+
+<section class="route" id="route">
+  <div class="section-head" data-reveal>
+    <span class="mono">Part I</span>
+    <h2>The running order</h2>
+    <p>Four pubs, none more than five minutes apart. Sunset on the canal, an old saloon bar, DJs, then a cosy finish until one.</p>
+    <p class="food-hint mono">Pizza at ours at 11pm. Until then, keep going on sides: open "Snacks here" on a stop for prices.</p>
+  </div>
+
+  <div class="route-grid">
+    <ol class="stops">
+
+      <li class="stop" data-stop="1" data-reveal>
+        <div class="stop-num">1</div>
+        <div class="stop-body">
+          <div class="stop-meta mono"><span>5:00 &ndash; 6:30pm</span><span class="now-flag">We're here</span></div>
+          <h3>The Constitution</h3>
+          <p class="addr mono">42 St Pancras Way, NW1 0QT</p>
+          <p>Built in 1858, the last building left of old Agar Town. The deck hangs over the Regent's Canal and sunset is at 5:47pm, so be there by 5:15 to catch it from the deck. It's tucked away on St Pancras Way, so follow the map.</p>
+          <span class="tag">Sunset</span>
+          <div class="stop-links">
+            <a class="btn" target="_blank" rel="noopener" href="https://www.google.com/maps/dir/?api=1&amp;destination=The+Constitution+42+St+Pancras+Way+London+NW1+0QT&amp;travelmode=walking">Walk me there</a>
+            <a class="btn ghost" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&amp;query=The+Constitution+42+St+Pancras+Way+London+NW1+0QT">Map</a>
+          </div>
+          <details class="food">
+            <summary class="mono">Snacks here</summary>
+            <div class="food-body">
+              <p class="food-when ok mono">Kitchen until 10pm &middot; open while we're here</p>
+              <ul class="food-list mono">
+                <li><span>Olives / padron peppers</span><span>£5.00</span></li>
+                <li><span>Sourdough &amp; bone marrow butter</span><span>£5.00</span></li>
+                <li><span>Whitebait &amp; tartare</span><span>£5.50</span></li>
+                <li><span>Fries / chips</span><span>£5.50</span></li>
+                <li><span>Bone marrow mac &amp; cheese</span><span>£6.50</span></li>
+                <li><span>Scotch egg</span><span>£7.50</span></li>
+              </ul>
+              <a class="food-menu mono" target="_blank" rel="noopener" href="https://www.theconstitutioncamden.co.uk/food-drink">See the menu</a>
+            </div>
+          </details>
+        </div>
+      </li>
+
+      <li class="walk mono" aria-hidden="true">3 min over to Royal College St</li>
+
+      <li class="stop" data-stop="2" data-reveal>
+        <div class="stop-num">2</div>
+        <div class="stop-body">
+          <div class="stop-meta mono"><span>6:45 &ndash; 8:15pm</span><span class="now-flag">We're here</span></div>
+          <h3>Golden Lion</h3>
+          <p class="addr mono">88 Royal College St, NW1 0TH</p>
+          <p>A proper old London boozer. Wooden floors, a Victorian bar-back on CAMRA's heritage list, and a pub the locals saved from being turned into flats in 2013.</p>
+          <span class="tag">Proper boozer</span>
+          <div class="stop-links">
+            <a class="btn" target="_blank" rel="noopener" href="https://www.google.com/maps/dir/?api=1&amp;destination=Golden+Lion+88+Royal+College+St+London+NW1+0TH&amp;travelmode=walking">Walk me there</a>
+            <a class="btn ghost" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&amp;query=Golden+Lion+88+Royal+College+St+London+NW1+0TH">Map</a>
+          </div>
+          <details class="food">
+            <summary class="mono">Snacks here</summary>
+            <div class="food-body">
+              <p class="food-when ok mono">Rack City Ribs kitchen &middot; hours not listed, ask at the bar</p>
+              <ul class="food-list mono">
+                <li><span>Coleslaw</span><span>~£2.50</span></li>
+                <li><span>Sweet potato fries</span><span>~£4.50</span></li>
+                <li><span>Loaded brisket fries</span><span>~£9.50</span></li>
+                <li><span>Wings</span><span>~£10&ndash;12</span></li>
+              </ul>
+              <p class="food-note">Prices are from Deliveroo, so they may be a bit lower in the pub.</p>
+            </div>
+          </details>
+        </div>
+      </li>
+
+      <li class="walk mono" aria-hidden="true">5 min north</li>
+
+      <li class="stop" data-stop="3" data-reveal>
+        <div class="stop-num">3</div>
+        <div class="stop-body">
+          <div class="stop-meta mono"><span>8:30 &ndash; 10:45pm</span><span class="now-flag">We're here</span></div>
+          <h3>Colonel Fawcett</h3>
+          <p class="addr mono">1 Randolph St, NW1 0SS</p>
+          <p>Used to be the Camden Arms. A hundred-odd gins, a heated back garden, and the Saturday DJs start at nine. Happy hour all day: £5.90 pints of 40ft Sunrise or Amstel, and two margaritas for £14.</p>
+          <span class="tag">DJs from 9</span> <span class="tag">£5.90 pints</span>
+          <div class="stop-links">
+            <a class="btn" target="_blank" rel="noopener" href="https://www.google.com/maps/dir/?api=1&amp;destination=Colonel+Fawcett+1+Randolph+St+London+NW1+0SS&amp;travelmode=walking">Walk me there</a>
+            <a class="btn ghost" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&amp;query=Colonel+Fawcett+1+Randolph+St+London+NW1+0SS">Map</a>
+          </div>
+          <details class="food">
+            <summary class="mono">Snacks here</summary>
+            <div class="food-body">
+              <p class="food-when ok mono">Kitchen until 9pm &middot; order soon after we arrive</p>
+              <ul class="food-list mono">
+                <li><span>Gordal olives</span><span>£4</span></li>
+                <li><span>Sourdough &amp; butter</span><span>£6</span></li>
+                <li><span>Cheese &amp; potato croquettes</span><span>£7</span></li>
+                <li><span>Breaded whitebait</span><span>£7</span></li>
+                <li><span>Scotch egg</span><span>£8</span></li>
+              </ul>
+              <a class="food-menu mono" target="_blank" rel="noopener" href="https://thecolonelfawcett.co.uk/food/">See the menu</a>
+            </div>
+          </details>
+        </div>
+      </li>
+
+      <li class="walk mono" aria-hidden="true">4 min back down</li>
+
+      <li class="stop stop-pizza" data-stop="5" data-reveal>
+        <div class="stop-num">&#9679;</div>
+        <div class="stop-body">
+          <div class="stop-meta mono"><span>11:00pm &ndash; 12:00am</span><span class="now-flag">We're here</span></div>
+          <h3>Pizza at Valter &amp; Mer's</h3>
+          <p class="addr mono">Address in the group chat</p>
+          <p>Papa John's, ordered from the Colonel so it lands when we do. Large pizzas are about £14 each on their "any large" deal (£18&ndash;22 full price), so roughly £5&ndash;7 each. We split the bill: send your share to whoever pays.</p>
+          <span class="tag">Split the bill</span>
+        </div>
+      </li>
+
+      <li class="walk mono" aria-hidden="true">Next door</li>
+
+      <li class="stop" data-stop="4" data-reveal>
+        <div class="stop-num">4</div>
+        <div class="stop-body">
+          <div class="stop-meta mono"><span>12:00 &ndash; 1am</span><span class="now-flag">We're here</span></div>
+          <h3>The Prince Albert</h3>
+          <p class="addr mono">163 Royal College St, NW1 0SG</p>
+          <p>The finish. A heated, covered garden where you can actually hear each other, open until one. Still going after that? The Colonel is four minutes back up the road, also open till one.</p>
+          <span class="tag">Till 1am</span>
+          <div class="stop-links">
+            <a class="btn" target="_blank" rel="noopener" href="https://www.google.com/maps/dir/?api=1&amp;destination=The+Prince+Albert+163+Royal+College+St+London+NW1+0SG&amp;travelmode=walking">Walk me there</a>
+            <a class="btn ghost" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&amp;query=The+Prince+Albert+163+Royal+College+St+London+NW1+0SG">Map</a>
+          </div>
+        </div>
+      </li>
+
+    </ol>
+
+    <aside class="map-wrap" id="map" data-reveal>
+      <figure class="map">
+        <div class="map-view v-real">
+          <img class="real-base" id="map-img" src="assets/map.svg" alt="" width="400" height="480">
+          <svg class="real-over" viewBox="0 0 400 480" role="img" aria-label="Street map of the route between the four pubs">
+          <defs><path id="st0" d="M27.7 264.6L86.9 297.7L131.3 321.6L132.3 322.2L139.2 326.2"/><path id="st1" d="M12.2 44.7L17.7 56.5L20 59.7L28.2 74.1L35.2 85L44.2 99.5L44.8 102L55.9 122.5L60.7 131.9L65 139.5L67.2 143.7L69 147.4L74.7 158.1L86.8 180.7L90.9 188.1L92 190L93.5 192.6L95.3 195.1L96.6 197.5L99.1 203L102 208.7L107.8 219.4L114 230.4L147.3 295.7L151.7 305L152.7 308.8L154 312L156.3 317.7L158.5 322.4L160 324.7L164.1 331.4L168 339.3L168.7 341.4L179.5 362.7L182.5 367.6L184.1 370.9L192.8 387.9L201.2 404.1L205.7 412.5L206.8 414.5L207.6 416.1L208.2 417.3L212.6 426L212.9 431.1L214.1 433.8L215.3 436L218.4 438.8L224.3 449.2L226.7 452.4L227.9 454.9L236.4 471.2"/><path id="st2" d="M227.8 48.7L235 45.8L240.5 43L245.8 40.3L249.9 38.1L276.1 24.1L286.2 19.1L289.9 17.2L296 14.3L305.6 9.9L307.2 9.3L309.9 8.1L316.4 5.2"/><path id="st3" d="M62.4 366.4L125.8 333L139.2 326.2L144.7 322.6L151.1 319.5L156.3 317.7L163.4 314.9L165.7 313.6L194.2 298.6L208.3 291.4L227.1 281.6L229.2 280.5L233.9 278.4L237.8 277.9L242.9 279"/><path id="st4" d="M173.4 5.2L187.6 17.6L206 32.5L214.7 40.3L218.8 43.3L223.6 45.9L227.8 48.7L232.5 52.7L236.6 57.1L237.1 57.9L240.8 62.6L244.2 65L245.3 66.1L247.8 69.1L252.5 76.3L255 80.9L258.5 87L260.6 91.4L262.9 95.9L263.8 97.8L266.7 103.1L268.1 107.4L269.1 110.5L269.5 116.4L269.1 122.4L267.3 135L258.7 183.8L253.3 216.7L252.4 222.1L250.7 232.4L248.5 243.5L247 251.8L245.9 258.1L245.5 260.3L245.2 262.4L243.9 270.5L243.6 273.7L243.1 277.4L242.9 279L242.4 283.5L242.5 285.4L242.5 287.3L242.7 291L242.7 291.4L244.1 297.9L245.7 302.8L249.1 309.6L250.3 311.6L251.9 314.5L255.7 319.9L258.2 322.9L263.1 328.6L267.9 334.1L283.2 351L288.5 356.1L292.4 359.7L295.1 362.3L297.6 364.7L299.8 366.6L303.2 369.9L305.2 371.7L328 393.2L333 397.4L343.6 406.6L346.7 409.8L351.9 415L367.9 431.6L369.7 433.8L382.6 452.3L393.4 468.6"/><path id="st5" d="M11.9 102.4L13.3 100.3L16.1 95.4L18.8 90.7L24 81.6L28.2 74.1L28.8 73.1L36.6 58.6L37.9 56.4L39.6 53.4L53.1 29.3L65.1 7.6"/><path id="st6" d="M93.5 192.6L97.4 190.2L98.6 189.5L99.5 188.9L100.9 188L103.7 186.4L105.6 184.6L120.5 176.8L138.4 167.5L143.3 164.8L189.6 140.1L196.6 136.1L252.2 104.9L258.5 101.4L259.9 100.6L263.8 97.8"/><path id="st7" d="M65 139.5L70.2 136.7L73.2 135.1L74.8 134.2L84.8 128.8L87.6 127.3L90 126.4L94.2 124.1L98.3 121.6L104.7 118L111.1 114.5L116.5 111.8L120.5 109.5L125.5 106.7L135.6 100.9L149 93.3L164.7 84.4L168.3 82.3L172.5 79.9L178.7 76.4L185.6 72.5L201.2 63.6L203.5 62.4L214.9 54.7L219 52.6L223.3 50.4L227.8 48.7"/><path id="st8" d="M113.1 473.4L124 466.8L136.5 459.1L148.3 451.2L164.8 440.8L198.7 419.6L201.5 417.8L206.8 414.5"/><path id="st9" d="M17.6 204.3L27.8 208.7L39.7 212L50.2 213.1L64.9 211.6L77.6 209.1L88.7 205.7L109.9 200.5L125.7 199L142.1 198.3L155 199.2L163.3 202.1L170.6 207.7L180.3 216.4L228.2 260.1"/></defs>
+          <g class="st-labels"><text class="st-label" font-size="8"><textPath href="#st0" startOffset="50%" text-anchor="middle">Lyme Street</textPath></text><text class="st-label" font-size="9"><textPath href="#st1" startOffset="50%" text-anchor="middle">Royal College Street</textPath></text><text class="st-label" font-size="9"><textPath href="#st2" startOffset="50%" text-anchor="middle">Agar Grove</textPath></text><text class="st-label" font-size="8"><textPath href="#st3" startOffset="50%" text-anchor="middle">Georgiana Street</textPath></text><text class="st-label" font-size="9"><textPath href="#st4" startOffset="50%" text-anchor="middle">St. Pancras Way</textPath></text><text class="st-label" font-size="9"><textPath href="#st5" startOffset="50%" text-anchor="middle">Camden Road</textPath></text><text class="st-label" font-size="9"><textPath href="#st6" startOffset="50%" text-anchor="middle">Baynes Street</textPath></text><text class="st-label" font-size="9"><textPath href="#st7" startOffset="50%" text-anchor="middle">Randolph Street</textPath></text><text class="st-label" font-size="9"><textPath href="#st8" startOffset="50%" text-anchor="middle">Pratt Street</textPath></text><text class="st-label canal-label" font-size="8"><textPath href="#st9" startOffset="50%" text-anchor="middle">Regent&#8217;s Canal</textPath></text></g>
+          <path class="route-line real-route" pathLength="1" d="M261.2 263.9L251.8 261.1L251.3 267.3L250.1 274.9L249 281.9L248.6 290.9L250.6 298.3L249.9 301.3L251.7 306.5L253.7 310.7L257.5 316.1L259.1 318.4L264 324.3L267.8 328.8L282.8 346.5L282.8 346.5L283.2 351L288.5 356.1L285.8 358.3L284.5 359.3L283.8 359.8L281.8 361.3L284.5 364.4L285.2 365.3L286 366.3L282.8 368.4L278.8 369.6L272.5 373.9L242.3 393.8L214.6 412.2L229 409.5L229 409.5L214.6 412.2L242.3 393.8L272.5 373.9L278.8 369.6L282.8 368.4L286 366.3L285.2 365.3L284.5 364.4L281.8 361.3L278.9 357.6L257.3 330.4L246.3 313.9L250.3 311.6L249.1 309.6L245.7 302.8L244.1 297.9L242.7 291.4L242.7 291L242.5 287.3L242.5 285.4L242.4 283.5L242.9 279L243.1 277.4L243.6 273.7L239.8 267.6L241.2 259.8L241.3 259.3L241.6 257.5L239.7 257.2L238.3 257L237.6 256.9L237.6 256.4L238.4 251.3L239.1 248.6L242.2 241L249.5 198.4L255.5 161.8L257.7 149.4L261 129.5L261.3 122.6L261 114.1L259.2 104.5L258.5 101.4L256 96.3L251.7 88L247.7 80.7L240.9 70.9L232.6 61.1L231.4 60L227.6 56.5L224.8 55.2L221.8 56.8L213.6 61.8L211.9 66.5L218.7 74.6L218.7 74.6L211.9 66.5L213.6 61.8L221.8 56.8L224.8 55.2L227.6 56.5L231.4 60L232.6 61.1L240.9 70.9L247.7 80.7L251.7 88L256 96.3L258.5 101.4L259.2 104.5L261 114.1L261.3 122.6L261 129.5L257.7 149.4L255.5 161.8L249.5 198.4L242.2 241L239.1 248.6L238.4 251.3L237.6 256.4L237.6 256.9L237.3 259.3L230.5 268L224.8 274.2L223.3 275.2L215 280.4L205.7 286L160.9 309.9L161.2 310.7L163.4 314.9L156.3 317.7L151.1 319.5L144.7 322.6L139.2 326.2L132.3 322.2L131.3 321.6L133.7 308.9"/>
+          <a class="mk" data-stop="1" href="https://www.google.com/maps/search/?api=1&amp;query=The+Constitution+42+St+Pancras+Way+London" target="_blank" rel="noopener">
+            <circle cx="261.2" cy="263.9" r="13"/><text x="261.2" y="268.9">1</text>
+            <text class="mk-label halo" x="280.2" y="268.4">Constitution</text>
+          </a>
+          <a class="mk" data-stop="2" href="https://www.google.com/maps/search/?api=1&amp;query=Golden+Lion+88+Royal+College+St+London" target="_blank" rel="noopener">
+            <circle cx="229" cy="409.5" r="13"/><text x="229" y="414.5">2</text>
+            <text class="mk-label halo" x="248.0" y="414.0">Golden Lion</text>
+          </a>
+          <a class="mk" data-stop="3" href="https://www.google.com/maps/search/?api=1&amp;query=Colonel+Fawcett+1+Randolph+St+London" target="_blank" rel="noopener">
+            <circle cx="218.7" cy="74.6" r="13"/><text x="218.7" y="79.6">3</text>
+            <text class="mk-label halo" x="237.7" y="79.1">Colonel Fawcett</text>
+          </a>
+          <a class="mk" data-stop="4" href="https://www.google.com/maps/search/?api=1&amp;query=The+Prince+Albert+163+Royal+College+St+London" target="_blank" rel="noopener">
+            <circle cx="133.7" cy="308.9" r="13"/><text x="133.7" y="313.9">4</text>
+            <text class="mk-label halo" x="114.7" y="313.4" style="text-anchor:end">Prince Albert</text>
+          </a>
+          <g class="compass" transform="translate(376 52)"><path d="M0 -18 L5 0 L0 18 L-5 0 Z"/><text y="-23" text-anchor="middle" class="mono">N</text></g>
+          <g class="scale"><rect x="251.7" y="440" width="134.3" height="26" class="scale-bg"/><path d="M261.7 452 L261.7 460 L376.0 460 L376.0 452"/><text x="318.9" y="449" text-anchor="middle" class="mono">100 m</text></g>
+          </svg>
+        </div>
+
+        <figcaption class="mono">Tap a number to open it. <a class="osm-credit" href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">&copy; OSM</a></figcaption>
+      </figure>
+      <a class="btn wide" target="_blank" rel="noopener"
+         href="https://www.google.com/maps/dir/?api=1&amp;origin=The+Constitution+42+St+Pancras+Way+London+NW1+0QT&amp;destination=The+Prince+Albert+163+Royal+College+St+London+NW1+0SG&amp;waypoints=Golden+Lion+88+Royal+College+St+London+NW1+0TH%7CColonel+Fawcett+1+Randolph+St+London+NW1+0SS&amp;travelmode=walking">Whole route in Google Maps</a>
+    </aside>
+  </div>
+</section>
+
+<section class="rules" id="rules">
+  <div class="rules-inner">
+    <div class="section-head light" data-reveal>
+      <span class="mono">Part II</span>
+      <h2>Good to know</h2>
+      <p>A few small things that make the night easier for everyone.</p>
+    </div>
+    <ol class="rule-list">
+      <li data-reveal><span class="rn">I</span><div><strong>Water at every stop.</strong> Tap water is free in any UK pub. Just ask.</div></li>
+      <li data-reveal><span class="rn">II</span><div><strong>Leave whenever you like.</strong> Just tell someone, so we're not waiting for you at the headcount before the next pub.</div></li>
+      <li data-reveal><span class="rn">III</span><div><strong>Bring physical ID.</strong> Challenge 25 is a thing. Passport for all non-UK residents. Photos on your phone won't count.</div></li>
+    </ol>
+  </div>
+</section>
+
+<section class="home-sec" id="home">
+  <div class="section-head" data-reveal>
+    <span class="mono">Part III</span>
+    <h2>Getting home</h2>
+    <p>Transport and safety for the end of the night.</p>
+  </div>
+
+  <dl class="facts">
+    <div data-reveal><dt>Night Tube</dt><dd>Northern line from Camden Town, all night on Saturdays. Charing Cross branch only, not Bank. About every 8 minutes.</dd></div>
+    <div data-reveal><dt>Night buses</dt><dd>Night (N) and 24-hour routes run from Camden High St and Camden Town station. Check Citymapper or TfL Go for your route.</dd></div>
+    <div data-reveal><dt>Overground</dt><dd>No overnight service from Camden Road. Check the last train time before you head out.</dd></div>
+    <div data-reveal class="hl"><dt>Clocks go back</dt><dd>At 2am on Sunday 25 October, clocks go back to 1am. Phones update automatically.</dd></div>
+    <div data-reveal><dt>Phones</dt><dd>Camden has one of the highest phone theft rates in the UK.</dd></div>
+  </dl>
+</section>
+
+<section class="money" id="money">
+  <div class="section-head" data-reveal>
+    <span class="mono">Part IV</span>
+    <h2>What it'll cost</h2>
+    <p>A rough guess, not a target. There's no pressure to spend any amount: tap water or soft drinks all night is completely fine.</p>
+  </div>
+
+  <div class="receipt mono" data-reveal>
+    <p class="r-head">THE ROYAL COLLEGE ST. CRAWL<br>24/10/26 &nbsp; TABLE: EVERYONE</p>
+    <div class="r-line"><span>5-7 x DRINK, ~6.00</span><span>30-42</span></div>
+    <div class="r-line"><span>1 x SNACK OR SIDE</span><span>~5.00</span></div>
+    <div class="r-line"><span>PIZZA, SPLIT</span><span>~6.00</span></div>
+    <div class="r-line"><span>TAP WATER</span><span>0.00</span></div>
+    <div class="r-line total"><span>TOTAL ABOUT</span><span>£41-53</span></div>
+    <p class="r-foot">PRICES ARE GUESSES<br>CHECK AT THE BAR<br>*** THANK YOU, COME AGAIN ***</p>
+  </div>
+</section>
+
+</main>
+
+<footer class="foot">
+  <p class="lost"><span class="mono">Lost?</span> Text Valter or Mer.</p>
+  <p class="mono small">Camden NW1 &middot; 2026</p>
+</footer>
+
+<nav class="dock mono" aria-label="Sections">
+  <a href="#route">Route</a>
+  <a href="#map">Map</a>
+  <a href="#rules">Notes</a>
+  <a href="#home">Home</a>
+</nav>
+
+<div class="toast mono" id="toast" role="status"></div>
+
+<script src="assets/app.js"></script>
+</body>
+</html>
